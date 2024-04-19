@@ -10,4 +10,3 @@ $records =
         'last_name' => 'Doe',
     ];
 var_dump(collection($records)->toArray());
-

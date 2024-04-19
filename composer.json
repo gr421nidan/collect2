@@ -1,26 +1,24 @@
 {
-    "name": "gr421nidan/collect",
-    "description": "Module for working with arrays",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "gr421nidan",
-            "email": "nikushkina.dasha@yandex.ru"
-        }
-    ],
-
-    "minimum-stability": "dev",
-    "require": {
-        "php": "^7.4 | ^8.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Collect\\": "src/"
-        }
+  "name": "gr421nidan/collect",
+  "description": "Module for working with arrays ",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "gr421_nidan",
+      "email": "nikushkina.dasha@yandex.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4 | ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Collect\\": "src/"
     },
     "files": [
-        "src/helpers.php"
+      "src/helpers.php"
     ]
-
+  }
 }
